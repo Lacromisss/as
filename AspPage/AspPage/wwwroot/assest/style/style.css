@@ -1,0 +1,232 @@
+.navbar{
+    background: #4e54c8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.navbar-nav{
+    margin-left: 200px;
+}
+.navbar-nav li{
+    margin-left: 50px;font-size: 19px;
+}
+
+.txtlar {
+  
+    margin-left: 400px;margin-top: 80px;
+}
+.txtlar p{
+    margin-left: -50px;width: 500px;
+}
+.img2 img{
+    border-radius: 156px;margin-left: 30px;
+}
+.img2{
+    margin-top: 40px;
+}
+.title2{margin-top: 20px;margin-left: 30px;
+
+}
+.desc2{
+    margin-top: 20px;text-align: center;
+}
+.animated-progress {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid rgb(189, 113, 113);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .animated-progress span {
+    height: 100%;
+    display: block;
+    width: 0;
+    color: rgb(255, 251, 251);
+    line-height: 30px;
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+  }
+  
+  .progress-blue span {
+    background-color: #4e54c8;
+  }
+  .progress-green span {
+    background-color:#4e54c8;
+  }
+  .progress-purple span {
+    background-color: #4e54c8;
+  }
+  .progress-red span {
+    background-color: #4e54c8;
+  }
+  
+#progress{
+padding-top: 200px; background: #4e54c8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-bottom: 100px;
+  }
+#bt1{
+    transition: 0.5s;
+  }
+#bt1:hover{
+background-color: burlywood;
+}
+.cart3{
+    margin-top: 80px;
+}
+.card{
+    border: none;margin-top: 30px;margin-left: 40px;margin-right: 30px;
+}
+.title9899 h2{
+    text-align: center;
+    
+}
+.title9899 p{
+    text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 18px;
+}
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700);
+body {
+ font-family:Rubik,sans-serif;
+ position:relative;
+ font-weight:400;
+ font-size:15px
+}
+ul {
+ padding:0;
+ margin:0
+}
+li {
+ list-style:none
+}
+a:focus,a:hover {
+ text-decoration:none;
+ -webkit-transition:.3s ease;
+ -o-transition:.3s ease;
+ transition:.3s ease
+}
+a:focus {
+ outline:0
+}
+img {
+ max-width:100%
+}
+p {
+ font-size:16px;
+ line-height:30px;
+ color:#2b2c33;
+ font-weight:300
+}
+h4 {
+ font-family:Rubik,sans-serif;
+ margin:0;
+ font-weight:400;
+ padding:0;
+ color:#363940
+}
+a {
+ color:#5867dd
+}
+.no-padding {
+ padding:0!important
+}
+.go_top {
+ line-height:40px;
+ cursor:pointer;
+ width:40px;
+ background:#5867dd;
+ color:#fff;
+ position:fixed;
+ -webkit-box-shadow:0 4px 4px rgba(0,0,0,.1);
+ box-shadow:0 4px 4px rgba(0,0,0,.1);
+ -webkit-border-radius:50%;
+ border-radius:50%;
+ right:-webkit-calc((100% - 1140px)/ 2);
+ right:calc((100% - 1140px)/ 2);
+ z-index:111;
+ bottom:80px;
+ text-align:center
+}
+.go_top span {
+ display:inline-block
+}
+.footer-big {
+ padding:105px 0 65px 0
+}
+.footer-big .footer-widget {
+ margin-bottom:40px
+}
+.footer--light {
+ background:#e7e8ed
+}
+.footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {
+ color:#898b96
+}
+.footer-menu {
+ padding-left:48px
+}
+.footer-menu ul li a {
+ font-size:15px;
+ line-height:32px;
+ -webkit-transition:.3s;
+ -o-transition:.3s;
+ transition:.3s
+}
+.footer-menu ul li a:hover {
+ color:#5867dd
+}
+.footer-menu--1 {
+ width:100%
+}
+.footer-widget-title {
+ line-height:42px;
+ margin-bottom:10px;
+ font-size:18px
+}
+.mini-footer {
+ background:#192027;
+ text-align:center;
+ padding:32px 0
+}
+.mini-footer p {
+ margin:0;
+ line-height:26px;
+ font-size:15px;
+ color:#999
+}
+.mini-footer p a {
+ color:#5867dd
+}
+.mini-footer p a:hover {
+ color:#34bfa3
+}
+.widget-about img {
+ display:block;
+ margin-bottom:30px
+}
+.widget-about p {
+ font-weight:400
+}
+.widget-about .contact-details {
+ margin:30px 0 0 0
+}
+.widget-about .contact-details li {
+ margin-bottom:10px
+}
+.widget-about .contact-details li:last-child {
+ margin-bottom:0
+}
+.widget-about .contact-details li span {
+ padding-right:12px
+}
+.widget-about .contact-details li a {
+ color:#5867dd
+}
+@media (max-width:991px) {
+ .footer-menu {
+  padding-left:0
+ }
+}

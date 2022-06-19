@@ -1,0 +1,37 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<table class="table">
+    @foreach (var item in Model)
+    {
+
+
+        <thead>
+
+
+
+            <tr>
+                <th scope="col">Photo</th>
+                <th scope="col">Description</th>
+                <th scope="col">Title</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>
+                    <img src="~/assest/images/@item.ImgUrl" width="150px" alt="">
+                </td>
+                <td>@item.Description</td>
+                <td>@item.Title</td>
+                <td><a asp-action="Update" asp-area="Manage" asp-controller="Product" asp-route-Id="@item.Id">Update</a></td>
+                <td><a asp-action="Delete" asp-area="Manage" asp-controller="Product" asp-route-Id="@item.Id" >Delete</a></td>
+            </tr>
+
+        </tbody>
+    }
+</table>

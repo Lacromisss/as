@@ -1,0 +1,28 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Update";
+}
+
+<form method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="Description"></label>
+        <input asp-for="Description " />
+        <span asp-validation-for="Description"></span>
+    </div>
+     <div class="mb-3">
+        <label asp-for="Photo"></label>
+        <input asp-for="Photo " accept="image/*" />
+        <span asp-validation-for="Photo"></span>
+    </div>
+     <div class="mb-3">
+        <label asp-for="Title"></label>
+        <input asp-for="Title " />
+        <span asp-validation-for="Title"></span>
+    </div>
+         <div class="mb-3">
+             <button type="submit" value="update">Update</button>
+         </div>
+
+</form>
+<h1>fOTO ELEVE EDILMESE UPDATE OLUNMUR</h1>
+
